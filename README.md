@@ -1,5 +1,5 @@
 # basicInformation
-This is a Java app created using Android Studio that displays my basic information which includes:<br>
+This is a Kotlin  app created using Android Studio that displays my basic information which includes:<br>
 
 My full name<br> 
 Slack Username <br>
