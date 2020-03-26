@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+    <!--styles for Layout -->
+    <style name="Layout" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:layout_height">650dp</item>
+        <item name="android:layout_width">410dp</item>
+        <item name="android:padding">4dp</item>
+    </style>
+
+
+    <!--styles for Heading -->
+    <style name="Arrangement" parent="Theme.AppCompat.Light">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">147dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:layout_marginTop"> 50dp</item>
+        <item name="android:layout_marginRight">40dp</item>
+        <item name="android:layout_marginEnd">40dp</item>
+        <item name="android:textColor">#003B46</item>
+
+
+    </style>
+
+    <!--styles for Sub-Heading -->
+    <style name="Description" parent="TextAppearance.AppCompat.Body2">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">#C4DFE6</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:layout_marginTop"> 50dp</item>
+        <item name="android:layout_marginRight">-200dp</item>
+        <item name="android:layout_marginEnd">-200dp</item>
+        <item name="android:textSize">12sp</item>
+
+
+    </style>
+
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C4DFE6"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="401dp"
+        android:layout_height="50dp"
+        android:text="@string/info"
+        android:textStyle="bold"
+        android:textColor="#003B46"
+        android:gravity="center_horizontal"
+        android:textSize="36sp"
+        android:padding="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        style="@style/Layout"
+        android:layout_marginTop="50dp"
+        android:background="#07575B"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/full_name"
+            style="@style/Arrangement"
+            android:text="@string/full_name" />
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/Description"
+            android:layout_alignEnd="@id/full_name"
+            android:layout_alignRight="@id/full_name"
+            android:layout_marginEnd="-193dp"
+            android:layout_marginRight="-193dp"
+            android:text="@string/my_name" />
+
+        <TextView
+            android:id="@+id/slack_name"
+            style="@style/Arrangement"
+            android:layout_below="@id/full_name"
+            android:text="@string/slack_username" />
+
+        <TextView
+            android:id="@+id/username"
+            style="@style/Description"
+            android:layout_below="@id/name"
+            android:layout_alignEnd="@id/slack_name"
+            android:layout_alignRight="@id/slack_name"
+            android:layout_marginTop="57dp"
+            android:layout_marginEnd="-142dp"
+            android:layout_marginRight="-142dp"
+            android:text="@string/username" />
+
+        <TextView
+            android:id="@+id/email_address"
+            style="@style/Arrangement"
+            android:layout_below="@id/slack_name"
+            android:text="@string/email_address" />
+
+        <TextView
+            android:id="@+id/email"
+            style="@style/Description"
+            android:layout_below="@id/username"
+            android:layout_alignEnd="@id/email_address"
+            android:layout_alignRight="@id/email_address"
+            android:layout_marginTop="53dp"
+            android:layout_marginEnd="-209dp"
+            android:layout_marginRight="-209dp"
+            android:text="@string/email" />
+
+        <TextView
+            android:id="@+id/tracks_name"
+            style="@style/Arrangement"
+            android:layout_below="@id/email_address"
+            android:text="@string/tracks_name" />
+
+        <TextView
+            android:id="@+id/track"
+            style="@style/Description"
+            android:layout_below="@id/email"
+            android:layout_alignEnd="@id/tracks_name"
+            android:layout_alignRight="@id/tracks_name"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="-166dp"
+            android:layout_marginRight="-166dp"
+            android:text="@string/track" />
+
+
+        />
+
+    </RelativeLayout>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

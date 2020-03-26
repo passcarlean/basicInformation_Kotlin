@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FirstApp</string>
+
+
+    <string name="info"> BASIC INFORMATION </string>
+
+    <string name="my_name">Paschaline Agughala</string>
+    <string name="full_name">FULL NAME:</string>
+    <string name="slack_username">SLACK USERNAME: </string>
+    <string name="username">Paschaline </string>
+    <string name="email_address">EMAIL ADDRESS:</string>
+    <string name="email">apasscar1@gmail.com</string>
+    <string name="tracks_name">TRACK</string>
+    <string name="track">Mobile, Coding</string>
+
+</resources>
