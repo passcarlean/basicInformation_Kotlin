@@ -5,4 +5,4 @@ My full name<br>
 Slack Username <br>
 Start.NG email address <br>
 Tracks i belong to<br>
-![Sceenshot of app](/passcarlean/basicInformation_Kotlin/tree/master/app/src/main/res/drawableinfo.PNG)
+![Sceenshot of app](/passcarlean/basicInformation_Kotlin/tree/master/app/src/main/res/drawableinfo.PNG?raw=true)
