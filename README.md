@@ -5,4 +5,4 @@ My full name<br>
 Slack Username <br>
 Start.NG email address <br>
 Tracks i belong to<br>
-![Sceenshot of app](/relative/drawable/info.PNG?raw=true)
+![Sceenshot of app](/relative/app/src/main/res/drawable/info.PNG?)
